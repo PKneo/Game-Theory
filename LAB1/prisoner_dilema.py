@@ -7,8 +7,6 @@ P2=np.array([[-1,0],[-3,-2]])
 
 #Computing using Nashpy
 prisoner_dilemma=nash.Game(P1,P2)
-prisoner_dilemma
-
 eqs = list(prisoner_dilemma.support_enumeration())
 
 #Handling readeble output
